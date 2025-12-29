@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html 
+<head>
+    <title>Registration Form</title>
+    <style>
+        input{
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validateForm()" style="padding-bottom: 25px; text-align: center; border: 2px solid black; border-radius: 50px; width: 300px;  margin-left: 500px; gap: 20px; margin-top: 200px;">
+        <h1 style="color:aqua;">Registration Form </h1>
+        <label for="Fname">FirstName : </label>
+        <input type="text" name="Fname" id="Fname" ><br><br>
+        <label for="Lname">LastName : </label>
+        <input type="text" name="Lname" id="Lname"><br><br>
+        <label for="Email">Email ID : </label>
+        <input type="text" name="Email" id="Email"><br><br>
+        <label for="Username">Username : </label>
+        <input type="text" name="name" id="Username"><br><br>
+        <label for="Password">Password : </label>
+        <input type="password" name="Pass" id="Password"><br><br>
+        <label>Gender :</label>
+        <input type="radio" name="gender" id="Male" value="male">Male 
+        <input type="radio" name="gender" id="Female" value="female">Female
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+    
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
