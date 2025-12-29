@@ -13,11 +13,7 @@ function validateForm() {
     if (Lname === "") {
         alert("Last Name cannot be empty.");
         return false;
-    }
-    if (Email === "") {
-        alert("Email ID cannot be empty.");
-        return false;
-    }
+}
     if (Username === "") {
         alert("Username cannot be if (!nameRegex.test(Fname)) {
         alert("First Name must contain only letters.");
